@@ -1,0 +1,1 @@
+import type{Metadata}from'next';import'./globals.css';export const metadata:Metadata={title:'나를 찾아줘 | 책을 찾아라! 도서관 추격전',description:'문제를 풀고 암호판을 소거하며 도서관을 탐험하는 조별 미션 활동 앱'};export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="ko"><body>{children}</body></html>}
